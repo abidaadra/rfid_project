@@ -1,0 +1,28 @@
+for lcd:
+ * LCD RS pin to Arduino pin 2
+ * LCD Enable pin to Arduino pin 3
+ * LCD D4 pin to Arduino pin 4
+ * LCD D5 pin to Arduino pin 5 
+ * LCD D6 pin to Arduino pin 6
+ * LCD D7 pin to Arduino pin 7
+ * LCD R/W pin to ground
+ * LCD VSS pin to ground
+ * LCD pin 16 or K to ground
+ * LCD VDD pin to 5V
+ * LCD pin 15 or A to 5V
+ * 10K variable resistor: 10k
+                         + c -
+ * ends to +5V and ground
+ * wiper to LCD VO pin (pin 3)
+
+for rfid:
+
+ * RFID 3.3v pin to ARD pin 3.3v
+ * RFID RST pin to ARD pin 9
+ * RFID GND pin to ARD pin GND
+ * RFID MISO pin to ARD pin 12
+ * RFID MOSI pin to ARD pin 11
+ * RFID SCK pin to ARD pin 13
+ * RFID SOA pin to ARD pin 10
+	
+		
